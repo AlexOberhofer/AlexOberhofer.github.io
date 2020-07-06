@@ -1,0 +1,3 @@
+[submodule "pages-simulator"]
+	path = pages-simulator
+	url = https://github.com/AlexOberhofer/pages-simulator.git
