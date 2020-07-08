@@ -59,12 +59,49 @@
     color: #AECFE5;
 }
 
+.firefox-icon {
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    margin-left: 10%; 
+}
+
+.homepage-logo {
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+}
+
+.home-half {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto; 
+    align-content: center;
+    text-align: center;
+}
+
+.home-quarter {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto; 
+    align-content: center;
+    text-align: center;
+}
 
 /*
  * Banner Section
  */
 
- .banner {
+ .disclaimer {
+    text-align: center;
+    background-color: aqua;
+}
+
+.banner {
     background: transparent url('https://raw.githubusercontent.com/AlexOberhofer/web-images/master/banner.jpg') 0 0 no-repeat fixed;
     text-align: center;
     background-size: cover;
@@ -114,15 +151,16 @@
     background: #2d3e50;
     padding: 10px 0;
     color: #fff;
-    padding-bottom: 2.5rem;
+    padding-bottom: 10px;
     font-size: 75%;
 }  
 
 .footer-container{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
-    display: flexbox;
+    display: block;
     text-align: center;
+    align-content: center;
 }
 
 div#footer a:link {
@@ -134,18 +172,21 @@ div#footer a:visited {
 }
 
 .footer-right {
-    text-align: left;
+    text-align: right;
     float: right;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto; 
+    align-content: center;
 }
 
 .footer-left {
     text-align: left;
     float: left;
-}
-
-.firefox-icon {
-    display: inline-block;
-    align-content: center;
-    text-align: center;
-    margin-left: 10%; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto; 
+    align-content: center;   
 }
