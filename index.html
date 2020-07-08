@@ -10,6 +10,14 @@
     <link rel="stylesheet" type="text/css" href="./public/css/normalize.css">
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./public/css/main.css">
+
+    <!--JQuery CDN 3.5.1 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./public/javascript/scripts.js"></script>
+    <script type="text/javascript">
+        object.onload = function(){decideImage()};
+    </script>
+
 </head>
  
 <body>
@@ -35,7 +43,7 @@
 </div>
 
 <div class="banner">  <!-- Banner Image -->
-    <h1 class="banner-head">
+    <h1 id="banner-img" class="banner-head">
         Alex Oberhofer
         <p>Charlotte, NC Software Developer</p>
     </h1>
