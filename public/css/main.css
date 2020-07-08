@@ -122,6 +122,7 @@
     width: 80%;
     margin: 0 auto;
     display: flexbox;
+    text-align: center;
 }
 
 div#footer a:link {
@@ -140,4 +141,11 @@ div#footer a:visited {
 .footer-left {
     text-align: left;
     float: left;
+}
+
+.firefox-icon {
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    margin-left: 10%;
 }
