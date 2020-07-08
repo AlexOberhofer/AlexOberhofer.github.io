@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alex Oberhofer</title>
     
+    <!-- Stylesheets - TODO: provide local fallback -->
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./public/css/main.css">
     <style></style>
 </head>
  
+<body>
 <div class="header">
 
-    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">  <!-- Menu Bar (Non-responsive) -->
         <a href="https://www.wcu.edu" class="pure-menu-heading">WCU</a>
         <ul class="pure-menu-list">
             <li class="pure-menu-item"><a class="pure-menu-link" href="/">Home</a></li>
@@ -26,7 +28,7 @@
 
 </div>
 
-<div class="banner">
+<div class="banner">  <!-- Banner Image -->
     <h1 class="banner-head">
         Alex Oberhofer
         <p>Charlotte, NC Software Developer</p>
@@ -53,6 +55,21 @@
 
 </div>
 
+<div class="footer">
+    <div class="footer-container">
 
+        <div class="footer-left">
+            Copyright &copy; 2020 Alex Oberhofer<br>
+            View this website on <a href="https://github.com/AlexOberhofer/AlexOberhofer.github.io">GitHub</a><br>
+        </div>
 
+        <div class="footer-right">
+            Built with <a href="https://purecss.io/">Pure.css</a> v2.0.3<br>
+            Developed and tested on my own web server written in <a href="https://github.com/AlexOberhofer/pages-simulator">Go</a><br>
+        </div>
+
+    </div> 
+</div>
+
+</body>
 </html>
