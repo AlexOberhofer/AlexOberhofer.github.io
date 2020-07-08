@@ -17,7 +17,6 @@
 
 .home-menu {
     padding: 0.5em;
-    text-align: center;
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
 }
 
@@ -89,4 +88,12 @@
     max-width: 800px;
     margin-bottom: 50px;
     line-height: 1.6em;
+}
+
+/* Custom Button CSS */
+.repo-button {
+    display: block;
+    text-align: center;
+    width: 95%;
+    
 }
