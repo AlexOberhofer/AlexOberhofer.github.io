@@ -92,6 +92,19 @@
     text-align: center;
 }
 
+.image-license {
+    font-size: 75%;   
+}
+
+.image-license-div {
+    font-size: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    display: block;
+}
+
 /*
  * Banner Section
  */
@@ -178,7 +191,7 @@ div#footer a:visited {
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto; 
-    align-content: center;
+    align-content: right;
 }
 
 .footer-left {
@@ -188,5 +201,14 @@ div#footer a:visited {
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto; 
-    align-content: center;   
+    align-content: left;   
+}
+
+.footer-center {
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto; 
+    align-content: center;  
 }
