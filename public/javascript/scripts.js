@@ -10,7 +10,7 @@ function random(min, max)
 
 function decideImage() 
 {
-    var img = 1;
+    var img = 0;
     var src = "";
 
     if(img == 0) {
