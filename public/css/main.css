@@ -109,10 +109,10 @@
  * Banner Section
  */
 
- .disclaimer {
+ /*.disclaimer {
     text-align: center;
     background-color: aqua;
-}
+}*/
 
 .banner {
     background: transparent url('../images/banner-tiny.jpg') 0 0;
@@ -330,7 +330,6 @@ div#footer a:visited {
         position: absolute;
         width: 100%;
         border-top: 1px solid #eee;
-        background-color: #808080\9;
         z-index: 100;
     }
 
@@ -361,4 +360,14 @@ div#footer a:visited {
         overflow: hidden;
     }
 
+}
+
+/* Custom Warning Bar CSS */ 
+
+.warning-bar {
+    color: #9F6000;
+    background-color: #FEEFB3;
+    margin: 10px 0px;
+    padding:12px;
+    text-align: center;
 }
