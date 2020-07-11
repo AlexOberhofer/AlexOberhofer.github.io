@@ -76,8 +76,8 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto; 
+    margin-top: 5px;
+    margin-bottom: 5px;
     align-content: center;
     text-align: center;
 }
@@ -150,8 +150,10 @@
     display: block;
     text-align: center;
     width: 95%;
-    background-color: #2d3e50; /* Fix this... probably read the docs... */
-    
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+    background: rgb(45, 62, 80); /* Fix this... probably read the docs... */
 }
 
 /* Footer CSS */
@@ -183,32 +185,32 @@ div#footer a:visited {
 }
 
 .footer-right {
-    text-align: right;
-    float: right;
+    text-align: center;
+    float: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto; 
-    align-content: right;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+    align-content: center;
 }
 
 .footer-left {
-    text-align: left;
-    float: left;
+    text-align: center;
+    float: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto; 
-    align-content: left;   
+    margin-top: 5px;
+    margin-bottom: 5px; 
+    align-content: center;   
 }
 
 .footer-center {
     float: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto; 
+    margin-top: 10px;
     align-content: center;  
+    vertical-align: center;
 }
 
 /* Responsive Menu Overrides */
