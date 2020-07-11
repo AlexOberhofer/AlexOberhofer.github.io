@@ -25,27 +25,29 @@
     <!-- My Javascript -->
     <script type="text/javascript" src="./public/javascript/scripts.js"></script>
 
-    <!-- DO STUFF!-->
-    <script type="text/javascript">
-        $(document).ready(function(){ 
-            //decideImage();
-        });
-    </script>
-
 </head>
  
 <body>
 <div class="header">
 
-    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">  <!-- Menu Bar (Non-responsive) -->
-        <a href="https://www.wcu.edu" class="pure-menu-heading">WCU</a>
-            <li class="pure-menu-item"><a class="pure-menu-link" href="/">Home</a></li>
-            <li class="pure-menu-item"><a class="pure-menu-link" href="https://github.com/AlexOberhofer">GitHub</a></li>
-            <li class="pure-menu-item"><a class="pure-menu-link" href="public/html/gnuboy.html" >GNUBoy</a></li>
-            <li class="pure-menu-item"><a class="pure-menu-link" href="public/html/projects.html">Other Projects</a></li>
-            <li class="pure-menu-item"><a class="pure-menu-link" href="public/html/about.html" >About</a></li>
-        </ul>
+    <div class="custom-menu-wrapped">
+        <div class="pure-menu custom-menu custom-menu-top">
+            <a href="https://www.wcu.edu" class="pure-menu-heading">WCU</a>
+            <a href="#" class="custom-menu-toggle" id="toggle"><s class="bar"></s><s class="bar"></s></a>
+        </div>
+        <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed pure-menu-scrollable custom-menu custom-menu-bottom custom-menu-tucked" id="tuckedMenu">  <!-- Responsive Menu Bar -->
+                <li class="pure-menu-item"><a class="pure-menu-link" href="/">Home</a></li>
+                <li class="pure-menu-item"><a class="pure-menu-link" href="https://github.com/AlexOberhofer">GitHub</a></li>
+                <li class="pure-menu-item"><a class="pure-menu-link" href="public/html/gnuboy.html" >GNUBoy</a></li>
+                <li class="pure-menu-item"><a class="pure-menu-link" href="public/html/projects.html">Other Projects</a></li>
+                <li class="pure-menu-item"><a class="pure-menu-link" href="public/html/about.html" >About</a></li>
+            </ul>
+        </div>
     </div>
+
+    <script>
+        doMenuMagic(this, this.document);
+    </script>
 
 </div>
 
