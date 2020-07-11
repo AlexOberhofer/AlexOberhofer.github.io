@@ -5,16 +5,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alex Oberhofer</title>
+    <link rel="icon" href="../images/icon.png">
 
     <!-- Latest compiled and minified CSS -->
     <!--<link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/3.4.1/flatly/bootstrap.min.css" integrity="sha384-bfWZLPtvQKHg/nZNhaO/ZW4Ba8ISud5CtEjnCTU6OR1yOq5zrrF+JP2o7om6rzLf" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../css/main.css">
     <link rel="stylesheet" type="text/css" href="../css/gnuboy.css">
-    <link rel="icon" href="../public/images/icon_logo.png">
-
-
-
+    
+    <!-- Custom CSS Overrides -->
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    
+    <!-- Icon CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/icono.min.css">
+    
 </head>
 
 <nav class="navbar navbar-default navbar-static-top">
@@ -43,8 +47,17 @@
 </nav>
 
 <body>
+
     <div class="center">
-        <br><br>
+        
+        <div class="sub-banner"> <!-- Sub Banner - Warnings go here -->
+            <p class="warning-bar">
+                <span class="icono-exclamation"></span>
+                WARNING!!! You are viewing a legacy page. This page will be upgraded soon. Stay tuned!
+                <span class="icono-exclamation"></span>
+            </p>
+        </div>
+
         <h1 align="center">SDL2 GNUBoy Port </h1>
         <br>
         <img class="gnuboy-center" src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/crystal.gif" alt="GNUBoy Running">
