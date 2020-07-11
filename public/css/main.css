@@ -115,9 +115,10 @@
 }*/
 
 .banner {
-    background: transparent url('../images/banner-tiny.jpg') 0 0;
+    background: transparent url('../images/banner-tiny-2.jpg') 0 0;
     text-align: center;
     background-size: cover;
+    background-color: #2d3e50;
     height: 600px;
     width: 100%;
     margin-bottom: 3em;
@@ -140,9 +141,10 @@
 .content {
     margin: 0 auto;
     padding: 0 2em;
-    max-width: 800px;
+    max-width: 900px;
     margin-bottom: 50px;
     line-height: 1.6em;
+    color: #2d3e50;
 }
 
 /* Custom Button CSS */
