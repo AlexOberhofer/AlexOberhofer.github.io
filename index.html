@@ -22,14 +22,17 @@
     <!-- Global styles -->
     <link rel="stylesheet" type="text/css" href="./public/css/main.css">
 
-    <!-- Icono CSS -->
-    <link rel="stylesheet" type="text/css" href="./public/css/icono.min.css">
+    <!-- Icono CSS
+    <link rel="stylesheet" type="text/css" href="./public/css/icono.min.css"> -->
 
-    <!--JQuery CDN 3.5.1 -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="./public/css/font-awesome-4.min.css">
+
+    <!--JQuery CDN 3.5.1
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
 
     <!-- My Javascript -->
-    <script type="text/javascript" src="./public/javascript/scripts.js"></script>
+    <script src="./public/javascript/scripts.js"></script>
 
 </head>
  
@@ -38,10 +41,11 @@
 
     <div class="custom-menu-wrapped">
         <div class="pure-menu custom-menu custom-menu-top">
-            <a href="#" class="pure-menu-heading">Menu</a>
+            <a href="javascript:history.back()" class="pure-menu-link back-arrow">&#9668;</a> <!-- Left Arrow Character -->
             <a href="#" class="custom-menu-toggle" id="toggle"><s class="bar"></s><s class="bar"></s></a>
         </div>
         <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed pure-menu-scrollable custom-menu custom-menu-bottom custom-menu-tucked" id="tuckedMenu">  <!-- Responsive Menu Bar -->
+            <ul class="pure-menu-list">
                 <li class="pure-menu-item"><a class="pure-menu-link" href="/">Home</a></li>
                 <li class="pure-menu-item"><a class="pure-menu-link" target="_blank" href="https://github.com/AlexOberhofer">GitHub</a></li>
                 <li class="pure-menu-item"><a class="pure-menu-link" href="public/html/gnuboy.html" >GNUBoy</a></li>
@@ -59,10 +63,10 @@
 </div>
 
 <div class="banner">  <!-- Banner Image -->
-    <h1 id="banner-img" class="banner-head">
-        Alex Oberhofer
+    <div id="banner-img" class="banner-head">
+        <p>Alex Oberhofer</p>
         <p>Charlotte, NC Software Developer</p>
-    </h1>
+    </div>
 </div>
 
 <!--div class="sub-banner"> 
@@ -84,45 +88,49 @@
         (This page is a preview of whats to come...)
     </p>
 
-    <div class="pure-g">
-        <div class="pure-u-1 pure-u-md-1-2 home-half">
-            <a title="Github" target="_blank" href="https://github.com/AlexOberhofer">
-                <img class="homepage-logo pure-img" alt="Github" 
-                width=30%
-                padding=1px
-                src="./public/images/GitHub_Logo.png">
-            </a>
+    <div class="home-well-heading">
+        <p>Click an icon below to be taken my profile:</p>
+    </div>
+
+    <div class="pure-g home-well">
+
+        <div class="pure-u-1-2 home-half">
+            <a class="fa fa-github-square fa-5x" aria-hidden="true" title="Github" target="_blank" href="https://github.com/AlexOberhofer"></a>
         </div>
         
-        <div class="pure-u-1 pure-u-md-1-2 home-half">
-            <a title="LinkedIn" target="_blank" href="https://linkedin.com/in/alex-oberhofer-5403bb143/">
-                <img class="homepage-logo pure-img" alt="LinkedIn"
-                width=30%
-                padding=1px
-                src="./public/images/LI-Logo.png">
+        <div class="pure-u-1-2 home-half">
+            <a class="fa fa-linkedin-square fa-5x" aria-hidden="true" title="LinkedIn" target="_blank" href="https://linkedin.com/in/alex-oberhofer-5403bb143/"></a>
         </div>
+
     </div><br>
-    <div class="pure-g"> <!-- Links to Project Repositories-->
+
+
+    <div class="home-well-heading">
+        <p>Click a button below to be taken to one of my code repositories:</p>
+    </div>
+
+    <div class="pure-g home-well"> <!-- Links to Project Repositories-->
         <div class="pure-u-1 pure-u-md-1-5"><a class="pure-button repo-button repo-button" target="_blank" href="https://github.com/AlexOberhofer/SDL2-GNUBoy">SDL2 GNUBoy</a></div><br>
         <div class="pure-u-1 pure-u-md-1-5"><a class="pure-button repo-button" target="_blank" href="https://github.com/AlexOberhofer/Space-Invaders">Space Invaders</a></div><br>
         <div class="pure-u-1 pure-u-md-1-5"><a class="pure-button repo-button" target="_blank" href="https://github.com/AlexOberhofer/Chip-8-Emulator">Chip 8</a></div><br>
         <div class="pure-u-1 pure-u-md-1-5"><a class="pure-button repo-button" target="_blank" href="https://github.com/AlexOberhofer/sdl2-doom">SDL2 DOOM</a></div><br>
         <div class="pure-u-1 pure-u-md-1-5"><a class="pure-button repo-button" target="_blank" href="https://github.com/AlexOberhofer/pylife">Pylife</a></div><br>
     </div>
+
+    <p>Thanks for checking out my page!</p>
     
     <h5>This website is built with:</h5>
 
     <div class="pure-g"> <!-- Links to website technologies -->
         <div class="pure-u-1-4 home-quarter">
             <a target="_blank" href="http://www.w3.org/html/logo/">
-                <img class="homepage-logo pure-img" src="./public/images/html5.png" width= 45% alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics" href="https://purecss.io/">
+                <img class="homepage-logo pure-img" src="./public/images/html5.png" width= 45% alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics">
                 </a>
         </div>
         <div class="pure-u-1-4 home-quarter">
             <a title="Pure CSS" target="_blank" href="https://purecss.io/">
                 <img class="homepage-logo pure-img" alt="golang" 
                 width=80%
-                padding=1px
                 src="./public/images/logo_pure.png">
             </a>
         </div>
@@ -130,7 +138,6 @@
             <a title="Developers for Firefox" target="_blank" href="https://www.mozilla.org/firefox/this-browser-comes-highly-recommended/?utm_source=devs-for.firefox.com&utm_medium=referral&utm_campaign=devs-for-firefox&utm_content=Developers_For_Firefox_Dark">
                 <img class="homepage-logo pure-img" alt="Developers for Firefox" 
                 width=25%
-                padding=1px
                 src="//code.cdn.mozilla.net/for-firefox/badges/assets/Developers_For_Firefox_Dark.png">
             </a>
         </div>
@@ -138,7 +145,6 @@
             <a title="Go" target="_blank" href="https://golang.org/">
                 <img class="homepage-logo pure-img" alt="golang" 
                 width=30%
-                padding=1px
                 src="./public/images/gopher.png">
             </a>
         </div>
@@ -162,7 +168,7 @@
                 <div class="footer-center">
                     <a><img alt="Linux" style="border-width:0" src="./public/images/badges/linux.png" /> </a> &nbsp;
                     <a><img alt="Vim" style="border-width:0" src="./public/images/badges/vim_the_editor.png" /></a> &nbsp;
-                    <a><img alt="Email" style="border-width:0" src="./public/images/badges/email-badge.png" /> </a> &nbsp;
+                    <a><img alt="Email" style="border-width:0" src="./public/images/badges/get_firefox.png" /> </a> &nbsp;
                 </div>
 
                  <!-- TODO: move to about page <div class="pure-g">
