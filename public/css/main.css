@@ -188,8 +188,7 @@ div#home-well-div a:visited {
 /* Footer CSS */
 .footer{
     bottom: 0;
-    width: 100%;
-    position: bottom;        
+    width: 100%;     
     background: #2d3e50;
     padding: 10px 0;
     color: #fff;
@@ -215,7 +214,6 @@ div#footer a:visited {
 
 .footer-right {
     text-align: center;
-    float: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
@@ -225,7 +223,6 @@ div#footer a:visited {
 
 .footer-left {
     text-align: center;
-    float: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
@@ -234,7 +231,6 @@ div#footer a:visited {
 }
 
 .footer-center {
-    float: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -382,7 +378,6 @@ div#footer a:visited {
         -ms-transform: translateX(-140px);
         transform: translateX(-140px);
         opacity: 0;
-        opacity: 1\9;
     }
 
     .pure-menu-horizontal.custom-menu-tucked {
@@ -401,15 +396,4 @@ div#footer a:visited {
     margin: 10px 0px;
     padding:12px;
     text-align: center;
-}
-
-/* Custom Widths for Homepage Images*/
-
-.li-gh-main-logo{
-    width: 30%;
-}
-
-.w3-image {
-    width: 45;
-    height: auto;
 }
