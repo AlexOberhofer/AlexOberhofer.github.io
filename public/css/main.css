@@ -73,13 +73,27 @@
 }
 
 .home-half {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    display: block;
     align-content: center;
     text-align: center;
+}
+
+div#home-well-div a:link {
+    color:  #2d3e50;
+
+}
+
+div#home-well-div a:visited { 
+    color: #70DB93; 
+}
+
+.home-well {
+    border-style: solid;
+    color: #2d3e50;
+}
+
+.home-well-heading {
+    text-decoration: underline;
 }
 
 .home-quarter {
@@ -114,6 +128,10 @@
     background-color: aqua;
 }*/
 
+.back-arrow {
+    font-weight: bolder;
+}
+
 .banner {
     background: transparent url('../images/banner-tiny-2.jpg') 0 0;
     text-align: center;
@@ -142,9 +160,16 @@
     margin: 0 auto;
     padding: 0 2em;
     max-width: 900px;
-    margin-bottom: 50px;
     line-height: 1.6em;
     color: #2d3e50;
+}
+
+/* Validation Text div */
+.validation-text {
+    font-size: x-small;
+    vertical-align: sub;
+    align-content: center;
+    text-align: center;
 }
 
 /* Custom Button CSS */
@@ -154,6 +179,8 @@
     width: 95%;
     margin-top: 5px;
     margin-bottom: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
     color: white;
     background: rgb(45, 62, 80); /* Fix this... probably read the docs... */
 }
@@ -374,4 +401,15 @@ div#footer a:visited {
     margin: 10px 0px;
     padding:12px;
     text-align: center;
+}
+
+/* Custom Widths for Homepage Images*/
+
+.li-gh-main-logo{
+    width: 30%;
+}
+
+.w3-image {
+    width: 45;
+    height: auto;
 }
