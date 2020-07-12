@@ -160,9 +160,16 @@ div#home-well-div a:visited {
     margin: 0 auto;
     padding: 0 2em;
     max-width: 900px;
-    margin-bottom: 50px;
     line-height: 1.6em;
     color: #2d3e50;
+}
+
+/* Validation Text div */
+.validation-text {
+    font-size: x-small;
+    vertical-align: sub;
+    align-content: center;
+    text-align: center;
 }
 
 /* Custom Button CSS */
