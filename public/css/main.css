@@ -173,7 +173,7 @@ div#home-well-div a:visited {
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 3px;
-    margin right 3px;
+    margin-right: 3px;
     color: white;
     background: rgb(45, 62, 80); /* Fix this... probably read the docs... */
 }
@@ -400,4 +400,9 @@ div#footer a:visited {
 
 .li-gh-main-logo{
     width: 30%;
+}
+
+.w3-image {
+    width: 45;
+    height: auto;
 }
