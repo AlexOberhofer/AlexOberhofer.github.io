@@ -39,29 +39,32 @@
 
 </head>
 
-<nav class="navbar navbar-default navbar-static-top">
+<body>
 
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle"
-                    data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="https://www.wcu.edu">WCU</a>
-        </div>
+    <div class="header">
 
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li> <a href="/">Home</a></li>
-                <li> <a href="https://github.com/AlexOberhofer">GitHub</a></li>
-                <li> <a href="gnuboy.html" >GNUBoy</a></li>
-                <li> <a href="projects.html">Other Projects</a></li>
-                <li> <a href="about.html" >About</a></li>
-            </ul>
+        <div class="custom-menu-wrapped">
+            <div class="pure-menu custom-menu custom-menu-top">
+                <a href="javascript:history.back()" class="pure-menu-link back-arrow">&#9668;</a> <!-- Left Arrow Character -->
+                <a href="#" class="custom-menu-toggle" id="toggle"><s class="bar"></s><s class="bar"></s></a>
+            </div>
+            <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed pure-menu-scrollable custom-menu custom-menu-bottom custom-menu-tucked" id="tuckedMenu">  <!-- Responsive Menu Bar -->
+                <ul class="pure-menu-list">
+                    <li class="pure-menu-item"><a class="pure-menu-link" href="/">Home</a></li>
+                    <li class="pure-menu-item"><a class="pure-menu-link" target="_blank" href="https://github.com/AlexOberhofer">GitHub</a></li>
+                    <li class="pure-menu-item"><a class="pure-menu-link" href="../html/gnuboy.html" >GNUBoy</a></li>
+                    <li class="pure-menu-item"><a class="pure-menu-link" href="../html/projects.html">Other Projects</a></li>
+                    <li class="pure-menu-item"><a class="pure-menu-link" href="../html/about.html" >About</a></li>
+                </ul>
+            </div>
         </div>
-</nav>
+    
+        <!-- Call Javascript for navbar responsiveness -->
+        <script>
+            doMenuMagic(this, this.document);
+        </script>
+    
+    </div>
 
 <div class="sub-banner"> <!-- Sub Banner - Warnings go here -->
     <p class="warning-bar">
@@ -199,5 +202,8 @@
     <p>Font Awesome v4.7.0</p>
     <p>Web Icon: <a target="_blank" href="https://icons8.com/icons/set/linux-client">License</a></p>
 </div>
+
+
+</body>
 
 </html>
