@@ -123,17 +123,23 @@ div#home-well-div a:visited {
  * Banner Section
  */
 
- /*.disclaimer {
-    text-align: center;
-    background-color: aqua;
-}*/
-
 .back-arrow {
     font-weight: bolder;
 }
 
 .banner {
     background: transparent url('../images/banner-tiny-2.jpg') 0 0;
+    text-align: center;
+    background-size: cover;
+    background-color: #2d3e50;
+    height: 600px;
+    width: 100%;
+    margin-bottom: 3em;
+    display: table;
+}
+
+.banner-proj {
+    background: transparent url('../images/banner-2.JPG') 0 0;
     text-align: center;
     background-size: cover;
     background-color: #2d3e50;
@@ -396,4 +402,29 @@ div#footer a:visited {
     margin: 10px 0px;
     padding:12px;
     text-align: center;
+}
+
+/* Project Page Custom CSS */
+.project-header-text {
+    color: #2d3e50;
+    background-color: #8a8a8a;
+    vertical-align: middle;
+}
+
+.project-img {
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.proj-license {
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.proj-repo{
+    align-content: center;
+    text-align: center;
+    justify-content: center;
 }
