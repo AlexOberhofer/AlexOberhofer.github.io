@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alex Oberhofer</title>
     <link rel="icon" href="../images/icon.png">
-    <!-- Latest compiled and minified CSS -->
-    <!--<link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css">-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/3.4.1/flatly/bootstrap.min.css" integrity="sha384-bfWZLPtvQKHg/nZNhaO/ZW4Ba8ISud5CtEjnCTU6OR1yOq5zrrF+JP2o7om6rzLf" crossorigin="anonymous">
 
     <!-- Normalize - base for pure -->
     <link rel="stylesheet" type="text/css" href="../css/normalize.css">
@@ -65,16 +62,16 @@
     
     </div>
 
-    <div align="center">
+    <div class="sub-banner"> <!-- Sub Banner - Warnings go here -->
+        <p class="warning-bar">
+            <span class="icono-exclamation"></span>
+            WARNING!!! You are viewing a legacy page. This page will be upgraded soon. Stay tuned!
+            <span class="icono-exclamation"></span>
+        </p>
+    </div>
 
-        <div class="sub-banner"> <!-- Sub Banner - Warnings go here -->
-            <p class="warning-bar">
-                <span class="icono-exclamation"></span>
-                WARNING!!! You are viewing a legacy page. This page will be upgraded soon. Stay tuned!
-                <span class="icono-exclamation"></span>
-            </p>
-        </div>
-
+    <div class="content">
+    
         <h1> Projects </h1>
         <br>
         <p>These are projects I work on or have worked on in my free time. They are all released under open source licenses. Please respect the terms of each project license, 
@@ -82,32 +79,44 @@
         </p><br>
 
         <p>More information about software licenses can be found here: <a href="https://choosealicense.com/licenses/">Choose a License</a></p>
-    </div><br><br>
-    
-    <div class="project-spacer"><br><br></div>
 
-    <div class="chip-8-div">
-        <div class="col-sm-6 col-sm-offset-1 align="center">
-            <h3 align="center"> Chip 8 </h3><br>
-            <p>License: <a href="https://choosealicense.com/licenses/gpl-3.0/">GPLv3</a></p>
+        <div class="chip-8-div">
+            <div class="pure-g">
+                <div class="pure-u-1-2">
+                    <h3> Chip 8 </h3><br>
+                    <p>License: <a href="https://choosealicense.com/licenses/gpl-3.0/">GPLv3</a></p>
+            
+                    <p>Chip 8 was my first emulation project. I would love to go back and touch up this project as 
+                        I have a refactored branch that will be merged into master and released as a new version when
+                        the windows cross build is completed.
+                    </p>
+                </div>
+                
+                <div class="pure-u-1-2">
+                    <br><br><br>
+                    <img src="https://raw.githubusercontent.com/AlexOberhofer/Chip-8-Emulator/master/doc/screenshot.png" alt="Chip 8">
+                    <br><br><br>
+                </div>
+            </div>
+
+        </div>
     
-            <p>Chip 8 was my first emulation project. I would love to go back and touch up this project as 
-                I have a refactored branch that will be merged into master and released as a new version when
-                the windows cross build is completed.
-            </p>
-        </div>
-        
-        <div class="col-sm-4 col-sm-offset-1">
-            <br><br><br>
-            <img src="https://raw.githubusercontent.com/AlexOberhofer/Chip-8-Emulator/master/doc/screenshot.png" alt="Chip 8">
-            <br><br><br>
-        </div>
     </div>
+
+   
+
+
+
+
+    
+<!--    <div class="project-spacer"><br><br></div>
+
+
     
     <div class="project-spacer"><br><br></div>
 
     <div class="invaders-div">
-        <div class="col-sm-6 col-sm-offset-1">
+        <div class="pure-u-1-2">
             <h3 align="center"> Space Invaders </h3><br>
             <p>License: <a href="https://choosealicense.com/licenses/mit/">MIT</a></p>
     
@@ -116,7 +125,7 @@
             </p>
         </div>
         
-        <div class="col-sm-4 col-sm-offset-1" align="center">
+        <div class="pure-u-1-2" align="center">
             <br><br><br>
             <img  src="https://raw.githubusercontent.com/AlexOberhofer/Space-Invaders/master/doc/attract.PNG" alt="Space Invaders">
             <br><br><br>
@@ -126,7 +135,7 @@
     <div class="project-spacer"><br><br></div>
 
     <div class="doom-div">
-        <div class="col-sm-6 col-sm-offset-1">
+        <div class="pure-u-1">
             <h3 align="center"> Doom </h3><br>
             <p>License: <a href="https://opensource.org/licenses/gpl-2.0.php">GPL v2</a></p>
     
@@ -155,7 +164,7 @@
             <img  src="https://raw.githubusercontent.com/AlexOberhofer/pylife/master/doc/conway.gif" alt="Conway's Game of Life">
             <br><br><br>
         </div>
-    </div>
+    </div>-->
 </body>
 
 
