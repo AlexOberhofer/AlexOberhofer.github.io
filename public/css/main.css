@@ -138,6 +138,17 @@ div#home-well-div a:visited {
     display: table;
 }
 
+.banner-proj {
+    background: transparent url('../images/banner-2.JPG') 0 0;
+    text-align: center;
+    background-size: cover;
+    background-color: #2d3e50;
+    height: 600px;
+    width: 100%;
+    margin-bottom: 3em;
+    display: table;
+}
+
 .banner-head {
     display: table-cell;
     vertical-align: middle;
@@ -401,6 +412,18 @@ div#footer a:visited {
 }
 
 .project-img {
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.proj-license {
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.proj-repo{
     align-content: center;
     text-align: center;
     justify-content: center;
