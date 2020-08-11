@@ -123,11 +123,6 @@ div#home-well-div a:visited {
  * Banner Section
  */
 
- /*.disclaimer {
-    text-align: center;
-    background-color: aqua;
-}*/
-
 .back-arrow {
     font-weight: bolder;
 }
@@ -396,4 +391,17 @@ div#footer a:visited {
     margin: 10px 0px;
     padding:12px;
     text-align: center;
+}
+
+/* Project Page Custom CSS */
+.project-header-text {
+    color: #2d3e50;
+    background-color: #8a8a8a;
+    vertical-align: middle;
+}
+
+.project-img {
+    align-content: center;
+    text-align: center;
+    justify-content: center;
 }
