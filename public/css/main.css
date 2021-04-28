@@ -1,5 +1,12 @@
 
-/*For font in middle jumbotron - LEGACY REMOVE */
+body {
+    display:flex;
+    flex-direction: column;
+}
+
+.body {
+    flex: 1;
+}
 
 #major_links{
     font-size:1.75em
