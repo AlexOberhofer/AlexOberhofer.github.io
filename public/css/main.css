@@ -1,0 +1,437 @@
+
+body {
+    display:flex;
+    flex-direction: column;
+}
+
+.body {
+    flex: 1;
+}
+
+#major_links{
+    font-size:1.75em
+}
+
+/* Project Spacer for projects.html LEGACY*/
+.project-spacer {
+    font-size: 0; 
+    height: 10px;
+    line-height: 0;
+}
+
+/*
+ * -- Custom overrides to pure css for menu bar
+ */
+
+.home-menu {
+    padding: 0.5em;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+}
+
+.home-menu {
+    background: #2d3e50;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+    -webkit-transition: height 0.5s;
+    -moz-transition: height 0.5s;
+    -ms-transition: height 0.5s;
+    transition: height 0.5s;
+}
+
+.pure-menu.pure-menu-fixed {
+    /* Fixed menus normally have a border at the bottom. */
+    border-bottom: none;
+    /* I need a higher z-index here because of the scroll-over effect. */
+    z-index: 4;
+}
+
+.home-menu .pure-menu-heading {
+    color: white;
+    font-weight: 400;
+    font-size: 120%;
+}
+
+.home-menu .pure-menu-selected a {
+    color: white;
+}
+
+.home-menu a {
+    color: #fff;
+}
+
+.home-menu li a:hover,
+.home-menu li a:focus {
+    background: none;
+    border: none;
+    color: #AECFE5;
+}
+
+.firefox-icon {
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    margin-left: 10%; 
+}
+
+.homepage-logo {
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+}
+
+.home-half {
+    display: block;
+    align-content: center;
+    text-align: center;
+}
+
+div#home-well-div a:link {
+    color:  #2d3e50;
+
+}
+
+div#home-well-div a:visited { 
+    color: #70DB93; 
+}
+
+.home-well {
+    border-style: solid;
+    color: #2d3e50;
+}
+
+.home-well-heading {
+    text-decoration: underline;
+}
+
+.home-quarter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto; 
+    align-content: center;
+    text-align: center;
+}
+
+.image-license {
+    font-size: 75%;   
+}
+
+.image-license-div {
+    font-size: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    display: block;
+}
+
+/*
+ * Banner Section
+ */
+
+.back-arrow {
+    font-weight: bolder;
+}
+
+.banner {
+    background: transparent url('../images/banner-tiny-2.jpg') 0 0;
+    text-align: center;
+    background-size: cover;
+    background-color: #2d3e50;
+    height: 600px;
+    width: 100%;
+    margin-bottom: 3em;
+    display: table;
+}
+
+.banner-proj {
+    background: transparent url('../images/banner-2.JPG') 0 0;
+    text-align: center;
+    background-size: cover;
+    background-color: #2d3e50;
+    height: 600px;
+    width: 100%;
+    margin-bottom: 3em;
+    display: table;
+}
+
+.banner-head {
+    display: table-cell;
+    vertical-align: middle;
+    margin-bottom: 0;
+    font-size: 2em;
+    color: white;
+    font-weight: 500;
+    text-shadow: 0 1px 1px black;
+}
+
+/*
+ * Content Div
+ */
+.content {
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 900px;
+    line-height: 1.6em;
+    color: #2d3e50;
+}
+
+/* Validation Text div */
+.validation-text {
+    font-size: x-small;
+    vertical-align: sub;
+    align-content: center;
+    text-align: center;
+}
+
+/* Custom Button CSS */
+.repo-button {
+    display: block;
+    text-align: center;
+    width: 95%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+    color: white;
+    background: rgb(45, 62, 80); /* Fix this... probably read the docs... */
+}
+
+/* Footer CSS */
+.footer{
+    bottom: 0;
+    width: 100%;     
+    background: #2d3e50;
+    padding: 10px 0;
+    color: #fff;
+    padding-bottom: 10px;
+    font-size: 75%;
+}  
+
+.footer-container{
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    align-content: center;
+}
+
+div#footer a:link {
+    color: #0ce755;
+}
+
+div#footer a:visited { 
+    color: #70DB93; 
+}
+
+.footer-right {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+    align-content: center;
+}
+
+.footer-left {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+    align-content: center;   
+}
+
+.footer-center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    align-content: center;  
+    vertical-align: center;
+}
+
+/* Responsive Menu Overrides */
+.custom-menu-wrapper {
+    background-color: #808080;
+    margin-bottom: 2.5em;
+    white-space: nowrap;
+    position: relative;
+}
+
+.custom-menu {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+}
+
+.custom-menu .pure-menu-link,
+.custom-menu .pure-menu-heading {
+    color: white;
+}
+
+.custom-menu .pure-menu-link:hover,
+.custom-menu .pure-menu-heading:hover {
+    background-color: transparent;
+}
+
+.custom-menu-top {
+    position: relative;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.custom-menu-brand {
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+.custom-menu-toggle {
+    width: 44px;
+    height: 44px;
+    display: block;
+    position: absolute;
+    top: 3px;
+    right: 0;
+    display: none;
+}
+
+.custom-menu-toggle .bar {
+    background-color: white;
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 100px;
+    position: absolute;
+    top: 22px;
+    right: 12px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.custom-menu-toggle .bar:first-child {
+    -webkit-transform: translateY(-6px);
+    -moz-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    transform: translateY(-6px);
+}
+
+.custom-menu-toggle.x .bar {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.custom-menu-toggle.x .bar:first-child {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.custom-menu-screen {
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+    height: 3em;
+    width: 70em;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.custom-menu-tucked .custom-menu-screen {
+    -webkit-transform: translateY(-44px);
+    -moz-transform: translateY(-44px);
+    -ms-transform: translateY(-44px);
+    transform: translateY(-44px);
+}
+
+/* Transformation Top bar */
+@media (max-width: 62em) {
+
+    .custom-menu {
+        display: block;
+    }
+
+    .custom-menu-toggle {
+        display: block;
+        display: none\9;
+    }
+
+    .custom-menu-bottom {
+        position: absolute;
+        width: 100%;
+        border-top: 1px solid #eee;
+        z-index: 100;
+    }
+
+    .custom-menu-bottom .pure-menu-link {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+
+    .custom-menu-bottom.custom-menu-tucked .pure-menu-link {
+        -webkit-transform: translateX(-140px);
+        -moz-transform: translateX(-140px);
+        -ms-transform: translateX(-140px);
+        transform: translateX(-140px);
+        opacity: 0;
+    }
+
+    .pure-menu-horizontal.custom-menu-tucked {
+        z-index: -1;
+        position: absolute;
+        overflow: hidden;
+    }
+
+}
+
+/* Custom Warning Bar CSS */ 
+
+.warning-bar {
+    color: #9F6000;
+    background-color: #FEEFB3;
+    margin: 10px 0px;
+    padding:12px;
+    text-align: center;
+}
+
+/* Project Page Custom CSS */
+.project-header-text {
+    color: #2d3e50;
+    background-color: #8a8a8a;
+    vertical-align: middle;
+}
+
+.project-img {
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.proj-license {
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.proj-repo{
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}

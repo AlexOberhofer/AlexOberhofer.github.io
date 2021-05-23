@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Oberhofer</title>
+    <link rel="icon" href="../images/icon.png">
+
+    <!-- Normalize - base for pure -->
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+
+    <!-- Pure CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+        
+    <!-- Pure local fallback TODO: Swap with needed modules -->
+    <link rel="stylesheet" type="text/css" href="../css/pure-min.css">
+    
+    <!-- Responsive Grid CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/grids-responsive-min.css">
+    
+    <!-- Global styles -->
+    <link rel="stylesheet" type="text/css" href="../css/main.css"> 
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome-4.min.css">
+    
+    <!-- My Javascript -->
+    <script src="../javascript/scripts.js"></script>
+
+</head>
+
+<body>
+
+    <div class="header">
+
+        <div class="custom-menu-wrapped">
+            <div class="pure-menu custom-menu custom-menu-top">
+                <a href="javascript:history.back()" class="pure-menu-link back-arrow">&#9668;</a> <!-- Left Arrow Character -->
+                <a href="#" class="custom-menu-toggle" id="toggle"><s class="bar"></s><s class="bar"></s></a>
+            </div>
+            <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed pure-menu-scrollable custom-menu custom-menu-bottom custom-menu-tucked" id="tuckedMenu">  <!-- Responsive Menu Bar -->
+                <ul class="pure-menu-list">
+                    <li class="pure-menu-item"><a class="pure-menu-link" href="/">Home</a></li>
+                    <li class="pure-menu-item"><a class="pure-menu-link" target="_blank" href="https://github.com/AlexOberhofer">GitHub</a></li>
+                    <li class="pure-menu-item"><a class="pure-menu-link" href="../html/gnuboy.html" >GNUBoy</a></li>
+                    <li class="pure-menu-item"><a class="pure-menu-link" href="../html/projects.html">Other Projects</a></li>
+                    <li class="pure-menu-item"><a class="pure-menu-link" href="../html/about.html" >About</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <!-- Call Javascript for navbar responsiveness -->
+        <script>
+            doMenuMagic(this, this.document);
+        </script>
+    
+    </div>
+
+    <div class="banner-proj">  <!-- Banner Image -->
+        <div id="banner-img" class="banner-head"></div>
+    </div>
+
+    <div class="content">
+    
+        <h1> Projects </h1>
+        <p>These are projects I work on or have worked on in my free time. They are all released under open source licenses. Please respect the terms of each project license, 
+            and feel free to contribute or fork the code. I have tried to supply some ideas on how each project could be improved.
+        </p>
+
+        <p>More information about software licenses can be found here: <a href="https://choosealicense.com/licenses/">Choose a License</a></p>
+
+        <div class="chip-8-div">
+            <h2><i class="fa fa-minus-square" aria-hidden="true"></i>&nbspChip 8</h2>
+            <div class="pure-g">
+                <div class="pure-u-1 pure-u-md-1-2">
+            
+                    <h4>Summary:</h4>
+                    <p>Chip 8 was my first emulation project. I would love to go back and touch up this project as 
+                        I have a refactored branch that will be merged into master and released as a new version when
+                        the windows cross build is completed.
+                    </p>
+
+                    <h4>Links:</h4>
+                    <div class="pure-g">
+                         <div class="pure-u-1 pure-u-md-1-2 proj-license">
+                             <a href="https://choosealicense.com/licenses/gpl-3.0/"><img alt="GPL" style="border-width:0" src="../images/badges/buttongnugpl.png" /></a>
+                         </div>
+                         <div class="pure-u-1 pure-u-md-1-2 proj-repo">
+                             <a class="fa fa-github-square fa-2x" aria-hidden="true" title="Github" target="_blank" href="https://github.com/AlexOberhofer/Chip-8-Emulator"></a>   
+                         </div>
+                    </div>
+
+                    <h4>Project Ideas:</h4>
+                    <ul>
+                        <li>Add Super Chip 8 functionality</li>
+                        <li>Port it to your favorite OS</li>
+                        <li>Port it to a different rendering backend</li>
+                    </ul> 
+                </div>
+                
+                <div class="pure-u-1 pure-u-md-1-2 project-img">
+                    <br><br><br>
+                    <img src="https://raw.githubusercontent.com/AlexOberhofer/Chip-8-Emulator/master/doc/screenshot.png" width=300px alt="Chip 8">
+                    <br><br><br>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="project-spacer"><br><br></div>
+
+        <div class="invaders-div">
+            <h2><i class="fa fa-minus-square" aria-hidden="true"></i>&nbspSpace Invaders</h2>
+            <div class="pure-g">
+                <div class="pure-u-1 pure-u-md-1-2">
+                    
+                    <h4>Summary:</h4>
+                    <p>Space Invaders is a software recreation of the origial Space Invaders hardware. It emulates the intel 8080 microprocessor and any
+                        specialized arcade hardware. Written in C.
+                    </p>
+
+                    <h4>Links:</h4>
+                    <div class="pure-g">
+                         <div class="pure-u-1 pure-u-md-1-2 proj-license">
+                            <a href="https://choosealicense.com/licenses/mit/">MIT</a>
+                         </div>
+                         <div class="pure-u-1 pure-u-md-1-2 proj-repo">
+                             <a class="fa fa-github-square fa-2x" aria-hidden="true" title="Github" target="_blank" href="https://github.com/AlexOberhofer/Space-Invaders"></a>   
+                         </div>
+                    </div>
+
+                    <h4>Project Ideas:</h4>
+                    <ul>
+                        <li>Emulate the entire Intel 8080</li>
+                        <li>Port it to your favorite OS</li>
+                        <li>Port it to a different rendering backend</li>
+                    </ul> 
+                </div>
+                
+                <div class="pure-u-1 pure-u-md-1-2 project-img" >
+                    <br><br><br>
+                    <img  src="https://raw.githubusercontent.com/AlexOberhofer/Space-Invaders/master/doc/attract.PNG" alt="Space Invaders">
+                    <br><br><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-spacer"><br><br></div>
+
+        <div class="doom-div">
+            <h2><i class="fa fa-minus-square" aria-hidden="true"></i>&nbspDOOM</h2>
+            <div class="pure-g">
+                <div class="pure-u-1 pure-u-md-1-2">
+                    <h4>DOOM</h4>
+       
+                    <h4>Summary:</h4>
+                    <p>An Exporation of the DOOM Linux port source code using SDL2 and the original open source release
+                        of DOOM by Id Software.
+                    </p>
+
+                    <h4>Links:</h4>
+                    <div class="pure-g">
+                         <div class="pure-u-1 pure-u-md-1-2 proj-license">
+                             <a href="https://opensource.org/licenses/gpl-2.0.php"><img alt="GPL" style="border-width:0" src="../images/badges/buttongnugpl.png" /></a>
+                         </div>
+                         <div class="pure-u-1 pure-u-md-1-2 proj-repo">
+                             <a class="fa fa-github-square fa-2x" aria-hidden="true" title="Github" target="_blank" href="https://github.com/AlexOberhofer/sdl2-doom"></a>   
+                         </div>
+                    </div>
+
+                    <h4>Project Ideas:</h4>
+                    <ul>
+                        <li>Fix Performance Issues</li>
+                        <li>Add new engine features</li>
+                        <li>Port it to your favorite OS</li>
+                        <li>See the ideas list inside the original DOOM repository</li>
+                    </ul> 
+                </div>
+                
+                <div class="pure-u-1 pure-u-md-1-2 project-img">
+                    <br><br><br>
+                    <img  src="https://raw.githubusercontent.com/AlexOberhofer/sdl2-doom/master/docs/ultimatedoom.PNG" alt="Ultimate DOOM">
+                    <br><br><br>
+                </div>
+            </div>  
+        </div>
+
+        <div class="project-spacer"><br><br></div>
+
+        <div class="pylife-class">
+            <h2><i class="fa fa-minus-square" aria-hidden="true"></i>&nbspPylife</h2>
+            <div class="pure-g">
+                <div class="pure-u-1 pure-u-md-1-2">
+                    <h4>License:</h4>
+                    <p>TBD</p>
+            
+                    <h4>Summary:</h4>
+                    <p>Conway's Game of Life in Python 3</p>
+
+                    <h4>Project Ideas:</h4>
+                    <ul>
+                        <li>Simulate more automata</li>
+                    </ul>
+                </div>
+                
+                <div class="pure-u-1 pure-u-md-1-2 project-img">
+                    <br><br><br>
+                    <img  src="https://raw.githubusercontent.com/AlexOberhofer/pylife/master/doc/conway.gif" alt="Conway's Game of Life">
+                    <br><br><br>
+                </div>
+            </div>
+
+        </div>
+    
+    </div>
+
+   <!-- Page Footer Start -->
+<div id="footer" class="footer">
+    <div class="footer-container">
+        <div class="pure-g">
+
+            <div class="pure-u-1 pure-u-md-1-3">
+                <div class="footer-left">
+                    View this website on <a target="_blank" href="https://github.com/AlexOberhofer/AlexOberhofer.github.io">GitHub</a><br>
+                </div>
+            </div><br><br>
+
+            <div class="pure-u-1 pure-u-md-1-3">
+                <div class="footer-center">
+                    &nbsp;&nbsp;<a href="https://www.kernel.org/"><img alt="Linux" style="border-width:0" src="../images/badges/linux.png" /></a>
+                    &nbsp;&nbsp;<a href="https://www.vim.org/"><img alt="Vim" style="border-width:0" src="../images/badges/vim_the_editor.png" /></a>
+                    &nbsp;&nbsp;<a href="https://www.mozilla.org/en-US/firefox/developer/"><img alt="Firefox" style="border-width:0" src="../images/badges/get_firefox.png" /></a>
+                </div>
+
+            </div> <br><br>
+            
+            <div class="pure-u-1 pure-u-md-1-3">
+                <div class="footer-right">
+                    Built with <a target="_blank" href="https://purecss.io/">Pure.css</a> v2.0.3<br>
+                    &copy; 2016-2021 Alex Oberhofer<br>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+     
+</div>
+</body>
+
+
+
+</html>
